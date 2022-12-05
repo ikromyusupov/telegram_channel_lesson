@@ -1,5 +1,5 @@
 from read_data import fromJson
-def get_post_weekday(data:dict)->dict:
+def get_post_weekday(data:dict,week:int)->dict:
     """
     Return the number of posts for each weekday
     args:
