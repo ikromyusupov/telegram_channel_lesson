@@ -10,7 +10,7 @@ def get_number_of_posts(data:dict)->int:
     Returns: 
         int: the number of posts for the given dictionary
     """
-    c = 0
+    c = 2
     for i in data["messages"]:
         if i["type"] == "message":
             c+=1
